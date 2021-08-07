@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+	@font-face {
+		font-family: "futuramediumc";
+		font-display: swap;
+		src: url("../fonts/futuramediumc.woff") format("woff"), url("../fonts/futuramediumc.woff2") format("woff2");
+		font-weight: 400;
+		font-style: normal;
+	 }
+}
+
+
+.title {
+font-family: futuramediumc;
+}
+
+.testing {
+	background-color: #000;
+}
